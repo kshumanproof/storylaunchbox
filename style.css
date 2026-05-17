@@ -4259,3 +4259,163 @@ body::before {
   box-shadow:
     0 10px 30px rgba(214,199,161,0.08);
 }
+/* ========================= */
+/* SUBMIT PAGE */
+/* ========================= */
+
+.submit-form-section {
+
+  padding:
+    0
+    24px
+    180px;
+}
+
+.submit-form-container {
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.submit-form-container h2 {
+
+  font-size:
+    clamp(3rem, 8vw, 5rem);
+
+  line-height: 0.92;
+
+  letter-spacing: -0.05em;
+
+  margin-bottom: 32px;
+}
+
+.jotform-wrapper {
+
+  margin-top: 50px;
+
+  border-radius: 32px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  background:
+    rgba(255,255,255,0.02);
+
+  backdrop-filter: blur(10px);
+
+  padding: 12px;
+}
+
+.jotform-wrapper iframe {
+
+  border: none !important;
+
+  width: 100% !important;
+
+  min-height: 1600px;
+}
+
+@media (min-width: 992px) {
+
+  .submit-form-section {
+
+    padding:
+      0
+      48px
+      220px;
+  }
+
+}
+/* ========================= */
+/* SUCCESS PAGE */
+/* ========================= */
+
+.success-page {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding:
+    120px
+    32px;
+
+  text-align: center;
+}
+
+.success-page .page-hero-content {
+
+  max-width: 760px;
+
+  margin: 0 auto;
+}
+
+.success-page .section-label {
+
+  margin-bottom: 28px;
+}
+
+.success-page h1 {
+
+  font-size:
+    clamp(3.5rem, 8vw, 7rem);
+
+  line-height: 0.92;
+
+  letter-spacing: -0.06em;
+
+  margin-bottom: 36px;
+}
+
+.success-page p {
+
+  font-size: 1.1rem;
+
+  line-height: 1.7;
+
+  color: rgba(243,243,240,0.78);
+
+  max-width: 640px;
+
+  margin:
+    0 auto
+    18px;
+}
+
+.success-page .primary-btn {
+
+  margin-top: 64px !important;
+
+  display: inline-flex;
+
+}
+/* SUCCESS BUTTON FIX */
+
+.success-page .primary-btn::before {
+
+  left: 50% !important;
+
+  transform:
+    translateX(-50%) !important;
+
+  opacity: 0.55;
+
+  transition: opacity 0.3s ease;
+}
+
+.success-page .primary-btn:hover::before {
+
+  left: 50% !important;
+
+  transform:
+    translateX(-50%) !important;
+
+  opacity: 0.85;
+}
