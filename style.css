@@ -2761,7 +2761,7 @@ body::before {
 .manifesto-inner p {
 
   font-size:
-    clamp(1.5rem, 4vw, 2.7rem);
+  clamp(1.2rem, 3vw, 2.1rem);
 
   line-height: 1.28;
 
@@ -4391,10 +4391,7 @@ body::before {
 
 .success-page .primary-btn {
 
-  margin-top: 64px !important;
-
-  display: inline-flex;
-
+  margin-top: 64px;
 }
 /* SUCCESS BUTTON FIX */
 
